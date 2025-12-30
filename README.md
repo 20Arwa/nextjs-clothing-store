@@ -1,7 +1,9 @@
 # 👚Clothes store
 
 A modern e-commerce web application built with **Next.js** for selling clothes.  
-It was created by following the YouTube tutorial:youtube.com/watch?v=DLeAPn5-TIA&si=VMyOZiyJw9jLHG_K. 
+It was created by following the YouTube tutorial:  
+[Build and Deploy an Ecommerce Website with NextJS 15, Stripe, TailwindCSS](https://youtube.com/watch?v=DLeAPn5-TIA&si=VMyOZiyJw9jLHG_K).  
+
 This project is for learning purposes.
 
 ---

@@ -1,14 +1,13 @@
 # 👚Clothes store
 
 A modern e-commerce web application built with **Next.js** for selling clothes.  
-It was created by following the YouTube tutorial:  
-[Build and Deploy an Ecommerce Website with NextJS 15, Stripe, TailwindCSS](youtube.com/watch?v=DLeAPn5-TIA&si=VMyOZiyJw9jLHG_K).  
+It was created by following the YouTube tutorial:youtube.com/watch?v=DLeAPn5-TIA&si=VMyOZiyJw9jLHG_K. 
 This project is for learning purposes.
 
 ---
 
 ## 🌐 Live Demo
-👉 [View Live on Vercel](https://nextjs-clothing-store-two.vercel.app/)
+👉 [View Live on Vercel](https://nextjs-clothing-store-gilt.vercel.app/)
 
 ---
 
@@ -63,31 +62,28 @@ This project is for learning purposes.
 ## 🚀 Getting Started (Run Locally)
 
 1. Clone the repository
-```bash
-git clone https://github.com/20Arwa/nextjs-clothing-store.git
-cd nextjs-clothing-store
-````
+    ```bash
+    git clone https://github.com/20Arwa/nextjs-clothing-store.git
+    cd nextjs-clothing-store
+    ````
 
 2. Install dependencies
+    ```bash
+    npm install
+    ```
 
-```bash
-npm install
-```
-
-3. Create `.env.local`
-
-```env
-STRIPE_SECRET_KEY=your_stripe_secret_key
-NEXT_PUBLIC_BASE_URL=http://localhost:3000
-```
+3. Create `.env`
+    ```env
+    STRIPE_SECRET_KEY=your_stripe_secret_key
+    NEXT_PUBLIC_BASE_URL=http://localhost:3000
+    ```
 
 4. Run the development server
+    ```bash
+    npm run dev
+    ```
 
-```bash
-npm run dev
-```
-
-Open: [http://localhost:3000](http://localhost:3000)
+5. Open: [http://localhost:3000](http://localhost:3000)
 
 ---
 

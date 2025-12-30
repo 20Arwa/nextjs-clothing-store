@@ -13,7 +13,7 @@ const Success = () => {
     },[])
 
     return (
-        <div className="min-h-[calc(100vh-8rem)] flex flex-col justify-center items-center">
+        <div className="min-h-[calc(100vh-8rem)] flex flex-col justify-center items-center text-center">
             <h1 className="text-2xl font-bold">Payment successful!</h1>
             <p className="mb-4">Thank you for your purchase. Your order is being procesed</p>
             <Button>

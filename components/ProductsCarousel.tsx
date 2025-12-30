@@ -47,7 +47,7 @@ export default function ProductsCarousel({ products }: ProductsCarouselProps) {
               <div className="p-1">
               <Link href={`products/${prod.id}`}>
                 <Card className="py-0">
-                  <CardContent className="flex flex-col aspect-square items-center justify-end p-6 relative">
+                  <CardContent className="flex flex-col aspect-3/4 items-center justify-end p-6 relative">
                   <Image src={prod.images[0]} alt={prod.name} fill className="object-cover object-center rounded-lg"></Image>
                   <div className="details absolute bottom-10 left-1/2 -translate-x-1/2 w-[75%] p-1 text-base font-medium text-center text-gray-900 bg-white/70 rounded-lg">
                     <p>{prod.name}</p>

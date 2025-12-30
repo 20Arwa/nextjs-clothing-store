@@ -72,7 +72,7 @@ const ProductsList = ({products}: ProductsListTypes) => {
 
       {FilteredProducts.length == 0 ? <p className="text-lg mt-10">No Results Found</p> 
         :
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
           { FilteredProducts.map((prod, index) =>  {
             return <ProductCard key={index} product={prod}/>
           })}

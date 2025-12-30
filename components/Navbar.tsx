@@ -24,7 +24,7 @@ const Navbar = () => {
     return (
         <Disclosure as="nav" className="sticky top-0 z-50 bg-gray-50 shadow-sm">
             <div className="container">
-                <div className="relative flex h-16 items-center justify-between">
+                <div className="relative flex min-h-16 items-center justify-between">
                     
                     {/* Logo */}
                     <Link href={"/"} className="flex items-center">

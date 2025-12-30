@@ -17,7 +17,7 @@ const ProductCard = ({product}: ProductCardTypes) => {
     return (
         <Link href={`/products/${product.id}`}>
             <Card className="w-full h-full pt-0 text-start justify-between">
-                <CardHeader className="h-92 rounded-t-xl p-0 relative">
+                <CardHeader className="aspect-3/4 rounded-t-xl p-0 relative">
                     <Image src={product.images[0]} alt={product.name} fill className="object-cover object-center rounded-t-xl"/>
                 </CardHeader>
                 <CardContent>

@@ -18,7 +18,7 @@ const Hero = async () => {
         </div>
         <div>
           {heroImage ?           
-          <Image src={heroImage} alt="Floral midi skirt blouse with bag" width={300} height={300} className="rounded-xl md:w-[350px] lg:w-[400px]"></Image>
+          <Image src={heroImage} alt="Floral midi skirt blouse with bag" width={300} height={300} className="rounded-xl"></Image>
           : <p>Image Not Found</p>
           }
         </div>

@@ -8,7 +8,7 @@ This project is for learning purposes.
 ---
 
 ## 🌐 Live Demo
-👉 [View Live on Vercel](https://nextjs-clothing-store-chi-lake.vercel.app/)
+👉 [View Live on Vercel](https://nextjs-clothing-store-two.vercel.app/)
 
 ---
 
@@ -62,32 +62,32 @@ This project is for learning purposes.
 
 ## 🚀 Getting Started (Run Locally)
 
-### 1️⃣ Clone the repository
+1. Clone the repository
 ```bash
 git clone https://github.com/20Arwa/nextjs-clothing-store.git
 cd nextjs-clothing-store
 ````
 
-### 2️⃣ Install dependencies
+2. Install dependencies
 
 ```bash
 npm install
 ```
 
-### 3️⃣ Create `.env.local`
+3. Create `.env.local`
 
 ```env
 STRIPE_SECRET_KEY=your_stripe_secret_key
 NEXT_PUBLIC_BASE_URL=http://localhost:3000
 ```
 
-### 4️⃣ Run the development server
+4. Run the development server
 
 ```bash
 npm run dev
 ```
 
-Open 👉 **[http://localhost:3000](http://localhost:3000)**
+Open: [http://localhost:3000](http://localhost:3000)
 
 ---
 
